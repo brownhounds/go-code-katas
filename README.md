@@ -41,3 +41,8 @@ using a sliding window with last-seen index tracking.
 
 - `pointer_chasing`: Compare pointer-based traversal versus contiguous slice traversal to demonstrate the
 pointer chasing effect, CPU cache friendliness, and hardware prefetch behaviour.
+- `struct_layout`: Show how Go arranges struct fields in memory and how field alignment requirements introduce
+padding between fields or at the end of the struct. This kata demonstrates how field order affects memory layout,
+why pointers and slice headers increase alignment and size, and why it is generally preferable for any unavoidable
+padding to appear as tail padding rather than between fields, keeping frequently accessed data tightly packed
+and cache-friendly.
