@@ -23,12 +23,5 @@ syntax fluency.
   the order of non-zero elements (stable compaction).
 - `maximum_subarray_sum`: Compute the max sum of any contiguous subarray using
   Kadane's algorithm.
-
-## Running tests
-
-Each module is its own Go module. Run tests from the module directory, e.g.:
-
-```bash
-cd two_sum
-go test
-```
+- `product_of_array_except_self`: Build a result slice where each element is
+  the product of all other elements using prefix/suffix products.
