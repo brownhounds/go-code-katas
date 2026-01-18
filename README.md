@@ -1,4 +1,4 @@
-# Go Playground
+# Go Code Katas
 
 Small Go code katas organized as stand-alone modules. This repo is a personal
 practice space for algorithm drills, data-structure patterns, and core Go
