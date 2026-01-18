@@ -32,3 +32,5 @@ the product of all other elements using prefix/suffix products.
 - `valid_anagram`: Determine whether two strings are anagrams using character frequency counting.
 - `longest_unique_substring`: Compute the length of the longest substring without repeating characters 
 using a sliding window with last-seen index tracking.
+- `minimum_window_substring`: Find the smallest contiguous substring containing all characters of a target
+  string (including duplicates) using a sliding window and frequency map; Unicode-safe via rune processing.
