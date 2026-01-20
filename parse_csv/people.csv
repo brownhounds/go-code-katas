@@ -1,0 +1,11 @@
+id,first_name,last_name,email,age,country
+1,Lukasz,Wisniewski,lukasz.wisniewski@example.com,34,United Kingdom
+2,Anna,Kowalska,anna.kowalska@example.com,29,Poland
+3,John,Smith,john.smith@example.com,41,United States
+4,Maria,Garcia,maria.garcia@example.com,36,Spain
+5,Tom,Anderson,tom.anderson@example.com,27,Canada
+6,Sophie,Martin,sophie.martin@example.com,32,France
+7,Michael,Brown,michael.brown@example.com,45,Australia
+8,Elena,Rossi,elena.rossi@example.com,38,Italy
+9,David,Miller,david.miller@example.com,24,Germany
+10,Emma,Wilson,emma.wilson@example.com,31,United Kingdom

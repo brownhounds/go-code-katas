@@ -15,7 +15,6 @@ syntax fluency.
 
 - `two_sum`: Find two indices whose values add to a target using a hash map
 (complement lookup).
-- `valid_anagram`: Decide if two strings are anagrams using a frequency count.
 - `rotate_slice_right`: Rotate a slice to the right by `k` steps in-place using
 the three-reversal trick.
 - `remove_duplicates`: Remove duplicates from a sorted slice in-place using a 
@@ -37,6 +36,10 @@ using a sliding window with last-seen index tracking.
 - `group_anagrams`: Group strings into collections where each collection contains
   words that are anagrams of each other; Unicode-safe with character multiplicity respected.
 
+### Simple Programs
+
+- `parse_csv`: Read a CSV file into a struct, manipulate it in memory, and write it back to disk. Demonstrates file I/O, string manipulation, and memory-safe data structures in Go.
+
 ### Go Generic Concepts
 
 - `pointer_chasing`: Compare pointer-based traversal versus contiguous slice traversal to demonstrate the
@@ -51,3 +54,8 @@ cannot be proven to be local, and how this directly translates into heap allocat
 The benchmarks contrast value returns versus pointer returns, global pointer storage, closure capture, interface
 boxing, and address-taking inside loops, showing how small structural changes can turn allocation-free code into
 allocation-heavy hot paths despite identical algorithmic complexity.
+- `http_server`: Simple HTTP server demonstrating:
+    - Handlers with middleware
+    - Path parameter extraction (manual, pure net/http)
+    - JSON responses
+    - Safe, idiomatic Go web handling without external frameworks
